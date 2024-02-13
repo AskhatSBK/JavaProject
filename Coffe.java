@@ -131,13 +131,6 @@ class Main {
         library.addDepartment(department1);
         library.addDepartment(department2);
 
-        department1.addPublication(publication1);
-        department1.addPublication(publication2);
-        department2.addPublication(publication3);
-
-        for (Department department : library.getDepartments()) {
-            System.out.println("Department: " + department.getName());
-            System.out.println("Number of publications: " + department.getPublications().size());
             System.out.println();
         }
 
